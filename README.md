@@ -1,185 +1,188 @@
-# 问心大模型 · 财经垂直领域大模型
+> 🌐 English | [简体中文](doc/README-zh.md)
 
-> 让 AI 有能力，直接解决企业问题 ｜ 软件层全部开源，永久免费
+# Wenxin Large Model · Finance-Domain Large Language Model
 
-![模型](https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B-%E9%97%AE%E5%BF%83%E5%A4%A7%E6%A8%A1%E5%9E%8B-blue?style=flat-square) ![领域](https://img.shields.io/badge/%E9%A2%86%E5%9F%9F-%E8%B4%A2%E7%BB%8F%E5%9E%82%E7%9B%B4%E9%A2%86%E5%9F%9F%E5%A4%A7%E6%A8%A1%E5%9E%8B-green?style=flat-square) ![智能](https://img.shields.io/badge/%E6%99%BA%E8%83%BD-4%E5%A4%A7%E6%99%BA%E8%83%BD-orange?style=flat-square) ![引擎](https://img.shields.io/badge/%E5%BC%95%E6%93%8E-5%E5%A4%A7%E5%BC%95%E6%93%8E-red?style=flat-square)
+> Empowering AI to directly solve enterprise problems | The entire software layer is open source, free forever
 
-## 平台简介
+![Model](https://img.shields.io/badge/Model-Wenxin-blue?style=flat-square) ![Domain](https://img.shields.io/badge/Domain-Finance-green?style=flat-square) ![Intelligence](https://img.shields.io/badge/Intelligence-4_Capabilities-orange?style=flat-square) ![Engines](https://img.shields.io/badge/Engines-5-red?style=flat-square)
 
-问心大模型是由华博云（北京）技术有限公司联合哈尔滨工业大学技术团队研发的财经垂直领域大模型，聚焦财经大脑，深度融合财经领域知识与推理决策能力，让 AI 有能力直接解决企业问题。
+## Platform Overview
 
-平台提供三种工作方式与五大引擎；问心大模型的财经能力形成四大智能。模型与五大引擎共同构成企业 AI 本体，进而生长出覆盖财经全链条的十项应用。应用基于 AI 能力构建，可随业务快速迭代和调整。
+Wenxin Large Model is a finance-domain large language model developed by Huabo Cloud (Beijing) Technology Co., Ltd. in collaboration with the technical team of Harbin Institute of Technology. Focused on the "finance brain", it deeply integrates finance-domain knowledge with reasoning and decision-making capabilities, empowering AI to directly solve enterprise problems.
 
-**三种工作方式**
+The platform provides three working modes and five engines; the finance capabilities of Wenxin Large Model form the four intelligence capabilities. The model and the five engines together constitute the Enterprise AI Ontology, from which ten applications covering the entire finance chain grow. Applications are built on AI capabilities and can iterate and adjust quickly with business needs.
 
-- **菜单式** —— 通过功能菜单使用应用，开箱即用
-- **技能式** —— 将大模型能力封装为可组合的技能，按场景编排调用
-- **对话式** —— 与大模型对话直达业务操作，AI 直接解决问题
+**Three Working Modes**
 
-**四大智能**
+- **Menu-based** — use applications through function menus, ready out of the box
+- **Skill-based** — encapsulate large-model capabilities as composable skills, orchestrated per scenario
+- **Conversational** — talk to the large model to perform business operations directly; AI solves problems directly
 
-- **AI 办公** —— 大模型的对话工作能力，让日常办公事务自然语言化
-- **AI 咨询** —— 大模型的管理咨询能力，财经专家知识沉淀为智能问答
-- **AI 建模** —— 大模型的动态建模能力，指标、规则、风险模型随业务动态构建
-- **AI 编程** —— 大模型的应用生成能力，动态建模、实时编程、随时交付
+**Four Intelligence Capabilities**
 
-四大智能运行于企业 AI 本体之上，作用于企业的业务对象与规则，形成从模型能力到业务执行的价值闭环。
+- **AI Office** — the conversational working capability of the large model, turning daily office tasks into natural language
+- **AI Consulting** — management-consulting capability; finance expert knowledge is distilled into intelligent Q&A
+- **AI Modeling** — dynamic modeling capability; indicators, rules and risk models are built dynamically with the business
+- **AI Coding** — application generation capability; dynamic modeling, real-time coding, delivery anytime
 
-| **AI 办公** | **AI 咨询** | **AI 建模** | **AI 编程** |
+The four intelligence capabilities run on top of the Enterprise AI Ontology and act on the enterprise's business objects and rules, forming a value loop from model capability to business execution.
+
+| **AI Office** | **AI Consulting** | **AI Modeling** | **AI Coding** |
 |---|---|---|---|
-| ![AI 办公](images/smart-office-1.png)<br>![AI 办公](images/smart-office-2.png) | ![AI 咨询](images/smart-consulting-1.png)<br>![AI 咨询](images/smart-consulting-2.png) | ![AI 建模](images/smart-modeling-1.png)<br>![AI 建模](images/smart-modeling-2.png)<br>![AI 建模](images/smart-modeling-3.png) | ![AI 编程](images/smart-coding-1.png)<br>![AI 编程](images/smart-coding-2.png) |
+| ![AI Office](images/smart-office-1.png)<br>![AI Office](images/smart-office-2.png) | ![AI Consulting](images/smart-consulting-1.png)<br>![AI Consulting](images/smart-consulting-2.png) | ![AI Modeling](images/smart-modeling-1.png)<br>![AI Modeling](images/smart-modeling-2.png)<br>![AI Modeling](images/smart-modeling-3.png) | ![AI Coding](images/smart-coding-1.png)<br>![AI Coding](images/smart-coding-2.png) |
 
-**问心智能体**
+**Wenxin Agents**
 
-问心智能体是承载四大智能、执行业务的运行单元：在智能体平台上把模型能力、知识库、工具与业务流程编排在一起，作用于企业 AI 本体，下发到业务模块中使用，覆盖从搭建到使用的全流程。
+The Wenxin Agent is the running unit that carries the four intelligence capabilities and executes business: on the Agent Platform, model capabilities, knowledge bases, tools and business processes are orchestrated together, applied to the Enterprise AI Ontology and distributed to business modules for use — covering the whole flow from building to using.
 
-- **搭建** —— 在智能体平台创建应用（对话型或工作流型），可视化编排工作流节点（大模型调用、知识检索、条件分支、模板转换、代码执行、工具调用等），编写提示词、配置模型参数；挂载知识库（上传企业制度与业务文档构建检索增强）与工具插件，让智能体具备企业知识与业务能力
-- **调试与发布** —— 通过会话调试验证效果，确认后发布应用并自动获得 API 密钥；支持草稿调试与发布版运行双轨
-- **授权下发** —— 在系统设置的智能体管理中，将智能体下发授权到业务模块与成员，控制谁在哪里可以使用
-- **使用** —— 业务人员在业务模块内通过 AI 助手调用智能体，以对话交互提出业务诉求，智能体理解后执行相应的业务操作；同时支持以对话方式直达业务
-- **运行留痕** —— 对话历史与运行记录留存可查，支撑智能体持续优化
+- **Build** — create applications on the Agent Platform (conversational or workflow type), visually orchestrate workflow nodes (LLM calls, knowledge retrieval, conditional branches, template conversion, code execution, tool calls, etc.), write prompts and configure model parameters; attach knowledge bases (upload enterprise policies and business documents for retrieval augmentation) and tool plugins, so agents acquire enterprise knowledge and business capabilities
+- **Debug & Publish** — validate results through conversation debugging; publish applications upon confirmation and automatically obtain an API key; supports dual-track operation of draft debugging and published running
+- **Authorize & Distribute** — in System Settings → Agent Management, distribute and authorize agents to business modules and members, controlling who can use what, and where
+- **Use** — business users invoke agents through the AI assistant inside business modules, raising business requests via conversation; the agent understands and executes the corresponding business operations; direct business access via conversation is also supported
+- **Audit Trail** — conversation history and running records are retained for review, supporting continuous agent optimization
 
-| ![问心智能体·调试发布](images/agent-2.png) | ![问心智能体·业务使用](images/agent-3.png) |
+| ![Wenxin Agent · Debug & Publish](images/agent-2.png) | ![Wenxin Agent · Business Use](images/agent-3.png) |
 
-**五大引擎**
+**Five Engines**
 
-组织引擎 · 角色引擎 · 流程引擎 · 表单引擎 · 规则引擎 —— 大模型融入企业运行的运行底座。
+Organization Engine · Role Engine · Process Engine · Form Engine · Rule Engine — the operational foundation that brings the large model into enterprise operation.
 
-**企业 AI 本体**
+**Enterprise AI Ontology**
 
-企业 AI 本体是企业的数字孪生与运营层：将企业的组织架构、业务对象、关联关系与管控规则建模为标准化的知识体系。其根基由三部分构成——企业专属的开发模板约束 AI 的行为规范，MCP 工具接入企业知识与规范，技能授权划定能力边界与执行审批。问心大模型运行于本体之上，成为懂本企业架构、规范与业务的 AI，在企业内持续运行、学习与执行业务。
+The Enterprise AI Ontology is the enterprise's digital twin and operating layer: it models the enterprise's organizational structure, business objects, relationships and control rules into a standardized knowledge system. Its foundation consists of three parts — enterprise-specific development templates constrain AI behavior norms, MCP tool integration connects enterprise knowledge and norms, and skill authorization defines capability boundaries and execution approvals. Wenxin Large Model runs on top of the ontology, becoming an AI that understands the enterprise's own structure, norms and business, continuously operating, learning and executing business within the enterprise.
 
-**平台架构**
+**Platform Architecture**
 
-问心大模型自上而下分为四层：大模型底座、五大引擎、企业 AI 本体、四大智能的应用。大模型底座提供财经领域的理解、推理与决策能力；组织、角色、流程、表单、规则五大引擎将企业运行要素建模为标准化的知识体系；二者共同构成企业 AI 本体——企业的数字孪生与运营层，沉淀业务对象、关联关系与管控规则。四大智能运行于本体之上，生长出覆盖企业监管与经营全业务链条的应用。
+Wenxin Large Model is structured in four layers from top to bottom: the large-model foundation, the five engines, the Enterprise AI Ontology, and the applications of the four intelligence capabilities. The large-model foundation provides finance-domain understanding, reasoning and decision-making; the five engines — organization, role, process, form and rule — model enterprise operating elements into a standardized knowledge system; together they constitute the Enterprise AI Ontology — the enterprise's digital twin and operating layer, accumulating business objects, relationships and control rules. The four intelligence capabilities run on top of the ontology, growing applications that cover the entire business chain of enterprise supervision and operation.
 
-![问心大模型架构图](images/architecture.png)
+![Wenxin Large Model Architecture](images/architecture.png)
 
-## 十项财经应用
+## Ten Finance Applications
 
-以下应用均基于问心大模型平台搭建，是四大智能在财经业务场景中的落地形态，覆盖企业监管与经营全业务链条；各应用可单独使用，也可一体化运行。
+The following applications are all built on the Wenxin Large Model platform. They are the concrete implementations of the four intelligence capabilities in finance business scenarios, covering the entire business chain of enterprise supervision and operation; each application can be used standalone or run as an integrated whole.
 
-| # | 应用 | 一句话简介 |
+| # | Application | One-line Introduction |
 |---|---|---|
-| 1 | 国资穿透 | 十三大穿透式监管维度，从集团总部到末端企业的全层级穿透，掌握真实经营状况 |
-| 2 | 风险管控 | 风险识别、评估、监控、预警、处置全生命周期管理，智能风控驾驶舱实时掌握风险态势 |
-| 3 | 内控合规 | 内控矩阵管理、合规规则库、合规性检查与流程执行监控，确保经营符合法规要求 |
-| 4 | 智慧合同 | 合同全生命周期管理，AI 智能审查与法律风险识别，降低合同履约风险 |
-| 5 | 财务共享 | 总账、应收、应付、固定资产、费用报销集中处理，提升财务运营效率 |
-| 6 | 管理会计 | 成本中心、产品成本、内部结算、多维成本分析与控制，支撑管理决策 |
-| 7 | 全球司库 | 现金管理、账户管理、资金规划、投融资管理、票据管理、衍生品管理 |
-| 8 | 智慧法务 | AI 智能处理法律文件审核、合规检查、案例检索及法律分析建议 |
-| 9 | 敏捷审计 | 审计计划、疑点发现、问题整改的全流程管理与 AI 辅助工具提升效率 |
-| 10 | 整改追责 | 问题发现后的整改跟踪、责任追溯、闭环管理与成效评估 |
+| 1 | SOE Look-Through | Thirteen look-through supervision dimensions, full-level look-through from group headquarters to end-level enterprises, revealing true operating conditions |
+| 2 | Risk Control | Full lifecycle management of risk identification, assessment, monitoring, early warning and disposal; an intelligent risk-control cockpit shows risk posture in real time |
+| 3 | Internal Control & Compliance | Internal control matrix management, compliance rule base, compliance checks and process execution monitoring, ensuring operations meet regulatory requirements |
+| 4 | Intelligent Contract | Full lifecycle contract management with AI-assisted drafting and review plus legal risk identification, reducing contract performance risk |
+| 5 | Financial Sharing | Centralized processing of general ledger, receivables, payables, fixed assets and expense reimbursement, improving financial operations efficiency |
+| 6 | Management Accounting | Cost centers, product costing, internal settlement, multi-dimensional cost analysis and control, supporting management decisions |
+| 7 | Global Treasury | Cash management, account management, capital planning, investment and financing management, bill management, derivatives management |
+| 8 | Intelligent Legal | AI-powered legal document review, compliance checks, case retrieval and legal analysis advice |
+| 9 | Agile Audit | Full-process management of audit planning, project implementation, report review, archives, rectification and quality assessment, with AI-assisted tools improving efficiency |
+| 10 | Rectification & Accountability | Post-issue rectification tracking, accountability tracing, closed-loop management and effectiveness evaluation |
 
-### 应用界面预览
+### Application UI Preview
 
-| 应用 | 界面 |
+| Application | UI |
 |---|---|
-| **1. 国资穿透** | ![1. 国资穿透](images/app-01-guochuantou-1.png) ![1. 国资穿透](images/app-01-guochuantou-2.png) |
-| **2. 风险管控** | ![2. 风险管控](images/app-02-fengxianguankong-1.png) ![2. 风险管控](images/app-02-fengxianguankong-2.png) |
-| **3. 内控合规** | ![3. 内控合规](images/app-03-neikonghegui-1.png) ![3. 内控合规](images/app-03-neikonghegui-2.png) |
-| **4. 智慧合同** | ![4. 智慧合同](images/app-04-zhihuihetong-1.png) ![4. 智慧合同](images/app-04-zhihuihetong-2.png) |
-| **5. 财务共享** | ![5. 财务共享](images/app-05-caiwugongxiang-1.png) ![5. 财务共享](images/app-05-caiwugongxiang-2.png) |
-| **6. 管理会计** | ![6. 管理会计](images/app-06-guanlikuaiji-1.png) ![6. 管理会计](images/app-06-guanlikuaiji-2.png) |
-| **7. 全球司库** | ![7. 全球司库](images/app-07-quanqiusiku-1.png) ![7. 全球司库](images/app-07-quanqiusiku-2.png) |
-| **8. 智慧法务** | ![8. 智慧法务](images/app-08-zhihuifawu-1.png) ![8. 智慧法务](images/app-08-zhihuifawu-2.png) |
-| **9. 敏捷审计** | ![9. 敏捷审计](images/app-09-minjieshenji-1.png) ![9. 敏捷审计](images/app-09-minjieshenji-2.png) |
-| **10. 整改追责** | ![10. 整改追责](images/app-10-zhenggaizhuijiu-1.png) ![10. 整改追责](images/app-10-zhenggaizhuijiu-2.png) |
+| **1. SOE Look-Through** | ![1. SOE Look-Through](images/app-01-guochuantou-1.png) ![1. SOE Look-Through](images/app-01-guochuantou-2.png) |
+| **2. Risk Control** | ![2. Risk Control](images/app-02-fengxianguankong-1.png) ![2. Risk Control](images/app-02-fengxianguankong-2.png) |
+| **3. Internal Control & Compliance** | ![3. Internal Control & Compliance](images/app-03-neikonghegui-1.png) ![3. Internal Control & Compliance](images/app-03-neikonghegui-2.png) |
+| **4. Intelligent Contract** | ![4. Intelligent Contract](images/app-04-zhihuihetong-1.png) ![4. Intelligent Contract](images/app-04-zhihuihetong-2.png) |
+| **5. Financial Sharing** | ![5. Financial Sharing](images/app-05-caiwugongxiang-1.png) ![5. Financial Sharing](images/app-05-caiwugongxiang-2.png) |
+| **6. Management Accounting** | ![6. Management Accounting](images/app-06-guanlikuaiji-1.png) ![6. Management Accounting](images/app-06-guanlikuaiji-2.png) |
+| **7. Global Treasury** | ![7. Global Treasury](images/app-07-quanqiusiku-1.png) ![7. Global Treasury](images/app-07-quanqiusiku-2.png) |
+| **8. Intelligent Legal** | ![8. Intelligent Legal](images/app-08-zhihuifawu-1.png) ![8. Intelligent Legal](images/app-08-zhihuifawu-2.png) |
+| **9. Agile Audit** | ![9. Agile Audit](images/app-09-minjieshenji-1.png) ![9. Agile Audit](images/app-09-minjieshenji-2.png) |
+| **10. Rectification & Accountability** | ![10. Rectification & Accountability](images/app-10-zhenggaizhuijiu-1.png) ![10. Rectification & Accountability](images/app-10-zhenggaizhuijiu-2.png) |
 
-## 开源声明
+## Open-Source Statement
 
-本项目软件层（全部业务模块）开源且永久免费：个人和企业均可免费使用、允许修改，禁止商用——任何企业、机构和个人不得将本软件售卖或包装为收费产品/服务对外提供。
+The software layer of this project (all business modules) is open source and free forever: both individuals and enterprises may use it free of charge and are allowed to modify it; commercial use is prohibited — no enterprise, institution or individual may sell this software or package it as a paid product/service.
 
-- **版本体系**：政府监管版 / 中央企业版 / 国有企业版 / 上市公司版 / 国际企业版 / 高校实训版 / 行业定制版 / 开源免费版
-- **数据库适配**：全面适配信创环境（达梦 DM / Oracle / MySQL），满足央国企国产化要求
-- **开源许可协议**：免费使用 · 禁止商用
+- **Version system**: Government Supervision Edition / Central Enterprise Edition / State-Owned Enterprise Edition / Listed Company Edition / International Enterprise Edition / University Training Edition / Industry Custom Edition / Open-Source Free Edition
+- **Database adaptation**: Fully adapted to Xinchuang (domestic IT innovation) environments (DM / Oracle / MySQL), meeting the localization requirements of central and state-owned enterprises
+- **License**: Free to use · Commercial use prohibited
 
-| 权利义务 | 说明 |
+| Rights & Obligations | Description |
 |---|---|
-| ✓ 个人使用 | 允许——个人学习、研究、使用，完全免费 |
-| ✓ 企业使用 | 允许——企业内部安装、部署，应用于自身经营管理，永久免费 |
-| ✓ 修改 | 允许——可按自身业务需要修改、二次开发（修改版同样禁止商用） |
-| × 商用（禁止） | 不得将本软件（含修改版及衍生版）直接或间接售卖、转售、收费分发 |
-| × 商用（禁止） | 不得将本软件包装为收费产品或收费服务（含 SaaS 模式）对外提供 |
-| ！商业授权 | 如需转售、集成到收费产品、对外提供收费服务，须另行签订书面商业授权协议 |
-| ！版权声明 | 使用及传播须保留原始版权声明 |
-| × 责任担保 | 不提供——软件按"现状"提供，不承担任何明示或暗示的担保责任 |
+| ✓ Personal use | Allowed — for personal study, research and use, completely free |
+| ✓ Enterprise use | Allowed — internal installation and deployment for your own business operations, free forever |
+| ✓ Modification | Allowed — may be modified and re-developed for your own business needs (modified versions are likewise prohibited from commercial use) |
+| × Commercial use (prohibited) | Must not sell, resell or distribute for a fee this software (including modified and derivative versions), directly or indirectly |
+| × Commercial use (prohibited) | Must not package this software as a paid product or paid service (including SaaS mode) for external offering |
+| ! Commercial licensing | Resale, integration into paid products, or providing paid services requires a separate written commercial license agreement |
+| ! Copyright notice | The original copyright statement must be retained when using and redistributing |
+| × Warranty | Not provided — the software is provided "as is", with no express or implied warranty |
 
-适用场景：个人学习研究、企业内部免费使用；商业合作（转售、集成、收费服务）须获得商业授权。
+Applicable scenarios: personal study and research; free internal enterprise use. Business cooperation (resale, integration, paid services) requires commercial authorization.
 
-## 联系我们
+## Contact Us
 
-- 官网：https://huabocn.com
-- 邮箱：18600042653@163.com
+- Website: https://huabocn.com
+- Email: 18600042653@163.com
 
-问心大模型 · 驾驭 AI，问内心
+Wenxin Large Model · Master AI, Ask the Heart
 
 ---
-# 问心大模型构建财务共享
 
-财务共享以事项会计中台为核心引擎，业务事项自动生成会计凭证，核算、预算、合并一体化，提升财务运营效率。
+# Financial Sharing Powered by Wenxin Large Model
 
-![问心大模型构建财务共享](images/05-caiwugongxiang.png)
+Financial Sharing uses the event-accounting middle platform as its core engine: business events automatically generate accounting vouchers, integrating accounting, budgeting and consolidation to improve financial operations efficiency.
 
-## 功能组成
+![Financial Sharing built with Wenxin Large Model](images/05-caiwugongxiang.png)
 
-### 事项会计中台
+## Feature Composition
 
-业务事项统一进入事项中心，会计规则中心按事项确认条件与时点匹配规则，自动生成凭证；会计中心提供凭证管理、生成、审核、过账、模板与分析——从业务到凭证自动化、可追溯，凭证模板支持常用业务一键生成，凭证分析监控自动生成凭证的质量与效率，规则调整即时生效。
+### Event Accounting Middle Platform
 
-### 总账核算
+Business events enter the event center in a unified way; the accounting rule center matches rules by recognition condition and timing to generate vouchers automatically; the accounting center provides voucher management, generation, review, posting, templates and analysis — automation and traceability from business to voucher; voucher templates support one-click generation for common businesses; voucher analysis monitors the quality and efficiency of auto-generated vouchers; rule adjustments take effect immediately.
 
-科目余额表、明细账支持多期间多科目区间查询，试算平衡自动校验借贷平衡，总账查询可从余额穿透到凭证，期末处理按步骤引导结账。
+### General Ledger Accounting
 
-### 应收应付管理
+Account balances and detail ledgers support multi-period, multi-account range queries; trial balance automatically verifies debit-credit balance; general ledger queries drill from balances down to vouchers; period-end processing guides closing step by step.
 
-应收登记与收款计划关联，账龄区间可配置，坏账按账龄管理；应付登记与付款计划、账期联动，付款按账期控制——往来款项与账龄风险全程清晰。
+### Receivables & Payables Management
 
-### 费用报销
+Receivable registration links to collection plans with configurable aging ranges and bad-debt management by aging; payable registration links to payment plans and payment terms with payments controlled by term — related-party balances and aging risks are clear throughout.
 
-通用报销、差旅报销等单据线上流转，按差旅标准自动校验，审批规则按金额分级配置，报销支付与预算控制联动，超预算自动拦截或预警。差旅标准、审批规则与预算控制规则在基础配置中统一维护，标准调整全局生效。
+### Expense Reimbursement
 
-### 固定资产与存货
+General reimbursement, travel reimbursement and other forms flow online with automatic validation against travel standards; approval rules are tiered by amount; reimbursement payment is linked to budget control, auto-blocking or alerting on budget overrun. Travel standards, approval rules and budget control rules are maintained centrally in basic configuration, and adjustments take effect globally.
 
-资产卡片记录原值、部门与状态，折旧按月自动计提，变动、处置、盘点留痕；存货按计价方法核算，成本自动结转，盘点差异自动生成账务调整，保证账实一致。
+### Fixed Assets & Inventory
 
-### 收入管理
+Asset cards record original value, department and status; depreciation accrues automatically monthly; changes, disposal and stocktaking leave traces; inventory is accounted by valuation method with automatic cost carry-forward; stocktaking differences automatically generate accounting adjustments, keeping books and reality consistent.
 
-收入确认按业务规则自动触发，合同收入与履行进度关联，递延与调整留痕可溯。
+### Revenue Management
 
-### 预算管理
+Revenue recognition triggers automatically by business rules; contract revenue links to performance progress; deferral and adjustment leave traceable records.
 
-预算编制提供模板、版本、分解与审批，自上而下分解、自下而上上报；预算控制提供执行监控、占用、释放、划转与预警，与报销、付款单据联动，超预算申请自动拦截或预警。
+### Budget Management
 
-### 合并报表
+Budget preparation provides templates, versions, decomposition and approval — top-down decomposition and bottom-up reporting; budget control provides execution monitoring, occupation, release, transfer and alerts, linked to reimbursement and payment documents, auto-blocking or alerting over-budget requests.
 
-合并范围管理、合并模型、抵消模板、抵消凭证、股权结构与对账分析——内部交易自动抵消，集团合并从手工汇总升级为系统合并。
+### Consolidated Statements
 
-### 三大工作台
+Consolidation scope management, consolidation models, elimination templates, elimination vouchers, equity structure and reconciliation analysis — intercompany transactions are eliminated automatically, upgrading group consolidation from manual aggregation to system consolidation.
 
-个人工作台处理待办，财务工作台处理核算作业，管理工作台呈现预算执行率等经营看板。
+### Three Workbenches
 
-## 业务流程
+The personal workbench handles to-dos, the finance workbench handles accounting operations, and the management workbench presents operating dashboards such as budget execution rate.
 
-业务事项发生后进入事项中心；会计规则中心按确认条件与时点匹配规则，自动生成会计凭证；凭证经审核、过账进入总账，期末按步骤结账；应收应付、费用报销、资产、存货、收入等作业在共享中心集中处理，预算控制同步校验拦截；集团层面按合并范围编制合并报表、内部交易自动抵消；三大工作台分层呈现结果——从业务发生到财务报告全链路自动化。
+## Business Process
 
-## 业务价值
+After a business event occurs, it enters the event center; the accounting rule center matches rules by recognition condition and timing and generates accounting vouchers automatically; vouchers enter the general ledger after review and posting, with step-guided period-end closing; receivables/payables, expense reimbursement, assets, inventory and revenue operations are processed centrally in the shared center with budget control validating and blocking in sync; at group level, consolidated statements are prepared by consolidation scope with automatic intercompany elimination; the three workbenches present results by layer — full-chain automation from business occurrence to financial reporting.
 
-财务共享把业务事项自动转化为会计凭证：核算自动化、多准则适配；总账、往来、费用、资产、存货、收入一体化；预算硬控制、合并系统化；三大工作台分层服务，财务运营效率与核算质量同步提升。
+## Business Value
 
-## 本仓库内容
+Financial Sharing converts business events into accounting vouchers automatically: automated accounting with multi-standard adaptation; integration of general ledger, related parties, expenses, assets, inventory and revenue; hard budget control and systematized consolidation; three workbenches serving by layer — improving financial operations efficiency and accounting quality together.
 
-| 服务 | 端口 | 说明 |
+## Repository Contents
+
+| Service | Port | Description |
 |---|---|---|
-| springboothbyunFinancialSharing | 8682 | 财务共享服务（事项会计中台、总账、报销、预算、合并） |
-| doc/ | — | [后端服务启动说明](doc/后端服务启动说明.md)：构建配置、数据库准备、脱敏配置对照、启动步骤与常见问题排查 |
+| springboothbyunFinancialSharing | 8682 | Financial sharing service (event accounting middle platform, general ledger, reimbursement, budget, consolidation) |
+| doc/ | — | [Backend Service Startup Guide](doc/后端服务启动说明.md): build configuration, database preparation, sanitization reference, startup steps and troubleshooting |
 
-依赖基础模块仓库（问心大模型基础模块）提供的注册中心、网关、系统模块与 AI 大模型服务支撑。
+Depends on the registry, gateway, system module and AI large-model services provided by the base module repository (Wenxin Large Model Base Module).
 
-## 技术栈与启动
+## Tech Stack & Startup
 
-- 技术栈：Spring Boot / Spring Cloud（Eureka + Gateway）、JDK 1.8、Maven 3.6+、达梦/MySQL 数据库、Redis。
-- 启动顺序：先启动基础模块仓库中的注册中心与网关，再启动本模块：`mvn spring-boot:run`。
-- 首次构建前需安装离线 jar（达梦驱动等，见基础模块仓库 repository 目录），详见[后端服务启动说明](doc/后端服务启动说明.md)。
-- 代码已脱敏：数据库密码、密钥、IP 均为占位值，启动前需替换为真实环境配置（application-dev.yml）。
+- Tech stack: Spring Boot / Spring Cloud (Eureka + Gateway), JDK 1.8, Maven 3.6+, DM/MySQL database, Redis.
+- Startup order: first start the registry and gateway from the base module repository, then start this module: `mvn spring-boot:run`.
+- Before the first build, install the offline jars (DM driver etc., see the `repository` directory of the base module repository); see the [Backend Service Startup Guide](doc/后端服务启动说明.md) for details.
+- The code is sanitized: database passwords, secrets and IPs are placeholders; replace them with real environment configuration (application-dev.yml) before startup.
